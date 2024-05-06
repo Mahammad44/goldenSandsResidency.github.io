@@ -1,135 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Sands Senior Residence</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Golden Sands Senior Residence</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-<body>
+    <body class="investBody">
 
-    <!-- Navigation start-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top">
-        <div class="container-fluid">
+        <!-- Navigation start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top">
+            <div class="container-fluid">
 
-            <a class="navbar-brand" href="./index.html">
-                <img src="./assets/logoWhite.png" width="225px" height="123px">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/logoWhite.png" width="225px" height="123px">
+                </a>
+
+                <a class="navbar-brand" href="./index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse ms-auto mt-5" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./invest.html" type="button" class="btn btn-light ms-auto me-3 btn-custom  rounded-lg mt-5 text-nowrap" data-toggle="button" aria-pressed="false" autocomplete="off" >
+                INVEST TODAY
             </a>
 
-            <a class="navbar-brand" href="./index.html"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-           
-            <div class="collapse navbar-collapse ms-auto mt-5" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <a href="./invest.html" type="button" class="btn btn-light ms-auto me-3 btn-custom  rounded-lg mt-5 text-nowrap" data-toggle="button" aria-pressed="false" autocomplete="off" >
-            INVEST TODAY
-        </a>
+
+        </nav>
+        <!--Navigation end-->
 
 
-    </nav>
-    <!--Navigation end-->
-
-
-<!--Hero section-->    
-<div class="container-fluid no-padding position-relative" style="z-index: 1;">
-    <img src="./assets/invest.jpg" class="img-fluid" alt="">
-     
-    <div class="overlay-text mb-10 pb-5">
-        <div class="container">
-            <h1 class="display-1">Contact Us</h1>
-            <form>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstName" maxlength="40">
-                        </div>
-                        <!-- Add more fields here for the left column -->
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Business Email Address</label>
-                            <input type="email" class="form-control" id="email" maxlength="80">
-                        </div>
-                        <!-- Add more fields here for the left column -->
-                        <div class="mb-3">
-                            <label for="companyName" class="form-label">Company Name</label>
-                            <input type="text" class="form-control" id="companyName" maxlength="255">
-                        </div>
-                        <!-- Add more fields here for the left column -->
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="lastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lastName" maxlength="80">
-                        </div>
-                        <!-- Add more fields here for the right column -->
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="phone">
-                        </div>
-                        <!-- Add more fields here for the right column -->
-                        <div class="mb-3">
-                            <label for="companyWebsite" class="form-label">Company Website</label>
-                            <input type="url" class="form-control" id="companyWebsite" maxlength="255">
-                        </div>
-                        <!-- Add more fields here for the right column -->
-                    </div>
-                    <div class="mb-3">
-                        <label for="interest" class="form-label">Tell us about your interest in investing in Golden Sands</label>
-                        <textarea class="form-control" id="interest" rows="5" maxlength="1000"></textarea>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
+    <!--Hero section-->    
+    <div class="container-fluid no-padding position-relative contactShift" style="z-index: 1;">
+        <img src="./assets/invest.jpg" class="img-fluid" alt="">
         
-</div>
+        <div class="overlay-text mb-10 pb-5 contactDrop">
+            <div class="container-fluid contactDrop2">
+                <h1 class="display-1">Contact Us</h1>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" maxlength="40">
+                            </div>
+                            <!-- Add more fields here for the left column -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Business Email Address</label>
+                                <input type="email" class="form-control" id="email" maxlength="80">
+                            </div>
+                            <!-- Add more fields here for the left column -->
+                            <div class="mb-3">
+                                <label for="companyName" class="form-label">Company Name</label>
+                                <input type="text" class="form-control" id="companyName" maxlength="255">
+                            </div>
+                            <!-- Add more fields here for the left column -->
+                        </div>
 
-
-
-<!--Footer-->
-<footer class="bg-dark text-white py-4" style="position: relative; z-index: 1;">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="./assets/logoWhite.png" alt="Logo" width="150">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" maxlength="80">
+                            </div>
+                            <!-- Add more fields here for the right column -->
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone">
+                            </div>
+                            <!-- Add more fields here for the right column -->
+                            <div class="mb-3">
+                                <label for="companyWebsite" class="form-label">Company Website</label>
+                                <input type="url" class="form-control" id="companyWebsite" maxlength="255">
+                            </div>
+                            <!-- Add more fields here for the right column -->
+                        </div>
+                        <div class="mb-3">
+                            <label for="interest" class="form-label">Tell us about your interest in investing in Golden Sands</label>
+                            <textarea class="form-control" id="interest" rows="5" maxlength="1000"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <div class="col-md-6">
-                <ul class="list-unstyled text-end">
-                    <li><a href="#" class="text-white"></a></li>
-                    <li><a href="#" class="text-white"></a></li>
-                    <li><a href="./crypto.html" class="text-white">Crypto Disclaimer</a></li>
-                    <!-- Add more links as needed -->
-                </ul>
-            </div>
-            <div class="col-12 text-center"> 
-                <p>© 2024 Golden Sands</p>
-        </div>
+            
     </div>
-</footer>
+
+
+
+    <!--Footer-->
+    <footer class="bg-dark text-white py-4 footPush" style="position: relative; z-index: 1;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/logoWhite.png" alt="Logo" width="150">
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled text-end">
+                        <li><a href="#" class="text-white"></a></li>
+                        <li><a href="#" class="text-white"></a></li>
+                        <li><a href="./crypto.html" class="text-white">Crypto Disclaimer</a></li>
+                        <!-- Add more links as needed -->
+                    </ul>
+                </div>
+                <div class="col-12 text-center"> 
+                    <p>© 2024 Golden Sands</p>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -138,10 +138,10 @@
 
 
 
-    <script src="JS/main.js"></script>
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+        <script src="JS/main.js"></script>
+        <!-- Bootstrap JS Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 
-</html>
+    </html>
 

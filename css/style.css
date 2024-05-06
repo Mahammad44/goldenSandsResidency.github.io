@@ -138,3 +138,309 @@ margin-top: 150;
 .custom-img-size:hover {
     transform: translateY(-10px);
 }
+
+@media only screen and (max-width: 767px) {
+    /* CSS rules for small screens */
+    body {
+        font-size: 14px;
+    }
+    .navbar-brand img {
+        width: 150px; /* Adjust the logo size as needed */
+        height: auto;
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px; /* Adjust the font size of nav links */
+    }
+    .btn-custom {
+        font-size: 14px; /* Adjust the font size of buttons */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .cryptoText{
+         height: 50%;
+         width: 100%;
+         margin-top: 300px;
+    }
+
+    .cryptoFoot{
+        margin-top: 500px;
+
+    }
+
+    .contactDrop{
+        margin-top: -150px;
+        padding:0
+    }
+
+    .contactDropText{
+        margin-top: -420px;
+    }
+
+    .cardShift{
+        margin-top: 30px;
+        width: auto;
+        height: auto;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .privateText{
+        margin-top: -190px;
+    }
+    
+        
+    .ourVision{
+        margin-top: 68px;
+    }
+
+    .overlay-text {
+        font-size: 0.5rem; /* Adjust the font size of the overlay text */
+    }
+
+    .headline-text{
+        font-size: 1.0rem;
+        text-wrap: nowrap;
+        padding-bottom: 40px;
+    }
+
+    .mediaLogo{
+        margin-top: 90px;
+    }
+    .custom-img-col {
+        flex: 10 10 10%; /* Make each column take up 50% of the width */
+        max-width: 50%; /* Set maximum width to 50% */
+        margin-bottom: 15px;
+        margin-top: 360px; /* Add some bottom margin for spacing */
+            
+      }
+
+      .theFuture-text{
+        margin-top: 500px;
+        font-size: 6.0em;
+
+      }
+
+      .ods{
+        margin-top: 510px;
+        text-wrap: none;
+        font-size: 4.0em;
+      }
+
+      .bespoke-text{
+        font-size: 5.6em;
+
+      }
+
+      .unleash-text{
+        display: none;  
+        margin-top: 230px;
+        font-size: 300px;
+        width: 200px;
+        height: 55px;
+        
+      }
+      
+      .format-img{
+        height: calc(100vh - 120px);
+      }
+      .overlayFormat{
+        margin-top:100px ;
+      }
+
+      .location-text{
+        font-size: 5.0em;
+      }
+      .redfineText{
+        text-wrap: nowrap;
+        margin-top: -20px;
+    }
+
+    .enviromentText{
+        font-size: 30px;
+        margin-top: -100px; 
+    }
+    .livingSpaceImg{
+        margin-top: -93px;
+    }
+
+    .personalCare{
+        font-size: 55px;
+    }
+
+    .footPush{
+        position: fixed;
+        padding: 0;
+        margin-top: 300px;
+    }
+        
+            
+    .investBody{
+    background-color: #532100;
+    }
+
+
+
+@media (max-width: 768px) {
+
+    .cryptoText{
+        height: 100%;
+        width: 100%;
+        margin-top: 930px;
+        margin-right:90px
+        
+   }
+   
+   .cryptoFoot{
+    margin-top: 800px;
+   }
+
+    .contactDrop{
+        margin-top: -150px;
+        padding:0;
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .footPush{
+        margin-top: 370px;
+    }
+
+    .contactDrop2{
+        margin-top: -128px;
+    }
+
+    .contactDropText{
+        margin-top: -220px;
+        
+    }
+    
+    .img-hide{
+        display: none;
+
+    }
+
+    .privateText{
+        margin-top: -30px;
+    }
+
+    .col-sm{
+        margin-bottom: -400px;
+    }
+
+    .state-text{
+        display: none;
+    }
+
+    .cardShift{
+        margin-top: 400px;
+        height:auto;
+        width: auto;
+        font-size: 14px;
+        padding-left: 30px;
+        
+    }
+
+    .footerService{
+        margin-top: 1200px;
+        
+    }
+
+    .personalCare{
+        margin-top: -240px;
+        font-size: 35px;
+    }
+
+    .striveText{
+        font-size: 20px;
+    }
+
+    .livingSpaceImg{
+        margin-top: -220px;
+    }
+
+    .enviromentText{
+        font-size: 18px;
+        margin-top: -200px; 
+    }
+
+    .redfineText{
+        text-wrap: nowrap;
+        margin-top: 110px;
+    }
+
+
+
+    .whatgolden{
+        text-wrap: nowrap;
+
+    }
+
+    .ourVision{
+        margin-top: 240px;
+    }
+
+    .toothImg{
+        margin-top: 190px;
+    }
+    .mapFormat{
+        height: 100px;
+        width: 100px;
+        padding: none;
+    }
+
+    .location-text{
+        font-size: 3.0em;
+      }
+    .overlayFormat{
+        margin-top: -100px;
+    }
+    
+    
+    .unleash-text{
+        margin-top: 10px;
+        font-size: 20em;
+        width: 200px;
+        height: 100px;
+      }
+    .custom-img-col {
+      flex: 10 10 10%; /* Make each column take up 50% of the width */
+      max-width: 50%; /* Set maximum width to 50% */
+      margin-bottom: 10px;
+      margin-top: 650px; /* Add some bottom margin for spacing */
+          
+    }
+    .mediaLogo{
+        margin-top: 150px;
+    }
+
+
+    .headline-text{
+        font-size: 1.0rem;
+        text-wrap: nowrap;
+        padding-bottom: 60px;
+    }
+
+    .theFuture-text{
+        margin-top: 700px;
+        font-size: 3.0em;
+
+      }
+
+      .ods{
+        margin-top: 630px;
+        text-wrap: none;
+        font-size: 2.2em;
+      }
+      .bespoke-text{
+        font-size: 3.0em;
+
+      }
+      .bespoke-img{
+        margin-top: -50px;
+      }
+  
+  
